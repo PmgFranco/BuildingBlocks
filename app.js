@@ -11,7 +11,4 @@ app.get("/",function(req,res){
 
 });
 
-
-app.listen(port,function(){
-  console.log("Initializating server at port: "+port);
-});
+module.exports = app;
