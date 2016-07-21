@@ -14,4 +14,5 @@ app.get("/cities",function(req,res){
   var cities = ["Lotopia","Caspiana","Indigo"];
   res.json(cities);
 });
+
 module.exports = app;

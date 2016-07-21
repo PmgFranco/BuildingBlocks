@@ -14,12 +14,6 @@ describe("Tests of Initial Route",function(){
             .get("/")
             .expect("Content-Type",/html/,done) //StatusCode (OK)
     });
-
-    it("Returns an index file with cities",function(done){
-      request(app)
-            .get("/cities/i")
-            .expect("Content-Type",/html/,done) //StatusCode (OK)
-    });
 });
 
 describe("Gets the list of cities on /cities",function(){
