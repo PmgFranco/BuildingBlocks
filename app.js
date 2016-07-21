@@ -4,7 +4,6 @@ var port = 3000;
 
 //Incorporating Middlewares
 //app.use(express.static("public"));
-//COmmenting stuff
 app.get("/",function(req,res){
   res.send("Server is working");
 });
