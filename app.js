@@ -8,7 +8,7 @@ app.get("/",function(req,res){
   res.send("Server is working");
 });
 
-//Routing
+//Routin
 app.get("/cities",function(req,res){
   var cities = ["Lotopia","Caspiana","Indigo"];
   res.json(cities);
