@@ -1,5 +1,1 @@
-deployment:
-  prod:
-    branch: master
-    heroku:
-      appname: whispering-ocean-33219 
+ 
