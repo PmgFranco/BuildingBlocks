@@ -3,3 +3,7 @@
     branch: master
     heroku:
       appname: serene-scrubland-50264
+  staging:
+    branch: staging
+    heroku:
+      appname: serene-scrubland-50264-staging
