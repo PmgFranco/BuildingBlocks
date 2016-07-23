@@ -14,6 +14,12 @@ describe("Tests of Initial Route",function(){
             .get("/")
             .expect("Content-Type",/html/,done) //StatusCode (OK)
     });
+
+    it("HTML format is retrieved 2",function(done){
+      request(app)
+            .get("/")
+            .expect("Content-Type",/html/,done) //StatusCode (OK)
+    });
 });
 
 describe("Gets the list of cities on /cities",function(){
